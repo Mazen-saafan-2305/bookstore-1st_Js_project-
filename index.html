@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <div class="container" style="margin-left: 230px;">
+    <div class="row" style="margin-top: 50px;">
+      <div class="col">
+
+        <div class="card" style="width: 18rem;">
+          <img src="./photos/product1.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title" id="bookname1">HTML Book</h5>
+            <p class="card-text price"><span id="price1">100</span> <span>EGP</span></p>
+            <a href="#" class="btn btn-primary" id="product1_btn">Add to cart</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col" >
+        
+        <div class="card" style="width: 18rem;">
+          <img src="./photos/product2.jpg" class="card-img-top" height="350px">
+          <div class="card-body">
+            <h5 class="card-title" id="bookname2">CSS Book</h5>
+            <p class="card-text price"><span id="price2">120</span> <span>EGP</span></p>
+            <a href="#" class="btn btn-primary" id="product2_btn">Add to cart</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col">
+
+        <div class="card" style="width: 18rem;">
+          <img src="./photos/product3.jpg" class="card-img-top" height="350px">
+          <div class="card-body">
+            <h5 class="card-title" id="bookname3">JvavScript Book</h5>
+            <p class="card-text price"><span id="price3">140</span> <span>EGP</span></p>
+            <a href="#" class="btn btn-primary" id="product3_btn">Add to cart</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 50px;">
+      <div class="col">
+        
+        <div class="card" style="width: 18rem;">
+          <img src="./photos/product4.jpg" class="card-img-top" height="350px">
+          <div class="card-body">
+            <h5 class="card-title" id="bookname4">C Book</h5>
+            <p class="card-text price"><span id="price4">160</span> <span>EGP</span></p>
+            <a href="#" class="btn btn-primary" id="product4_btn">Add to cart</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col">
+        
+        <div class="card" style="width: 18rem;">
+          <img src="./photos/product5.jpg" class="card-img-top" height="350px">
+          <div class="card-body">
+            <h5 class="card-title" id="bookname5">C++ Book</h5>
+            <p class="card-text price"><span id="price5">180</span> <span>EGP</span></p>
+            <a href="#" class="btn btn-primary" id="product5_btn">Add to cart</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col">
+        
+        <div class="card" style="width: 18rem;">
+          <img src="./photos/product6.jpg" class="card-img-top" height="350px">
+          <div class="card-body">
+            <h5 class="card-title" id="bookname6">C# Book</h5>
+            <p class="card-text price"><span id="price6">200</span> <span>EGP</span></p>
+            <a href="#" class="btn btn-primary" id="product6_btn">Add to cart</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 50px;">
+      <div class="col">
+        
+        <div class="card" style="width: 18rem;">
+          <img src="./photos/product7.jpg" class="card-img-top" height="350px">
+          <div class="card-body">
+            <h5 class="card-title" id="bookname7">SQL Book</h5>
+            <p class="card-text price"><span id="price7">220</span> <span>EGP</span></p>
+            <a href="#" class="btn btn-primary" id="product7_btn">Add to cart</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col">
+        
+        <div class="card" style="width: 18rem;">
+          <img src="./photos/product8.jpg" class="card-img-top" height="350px">
+          <div class="card-body">
+            <h5 class="card-title" id="bookname8">MySQL Book</h5>
+            <p class="card-text price"><span id="price8">240</span> <span>EGP</span></p>
+            <a href="#" class="btn btn-primary" id="product8_btn">Add to cart</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col">
+        
+        <div class="card" style="width: 18rem;">
+          <img src="./photos/product9.jpg" class="card-img-top" height="350px">
+          <div class="card-body">
+            <h5 class="card-title" id="bookname9">ORACLE Book</h5>
+            <p class="card-text price"><span id="price9">260</span> <span>EGP</span></p>
+            <a href="#" class="btn btn-primary" id="product9_btn">Add to cart</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="row" style="margin-top: 50px; margin-bottom: 50px; ">
+    <div class="col">
+
+      <div class="card">
+        <div class="card-header">
+          Totla Price
+        </div>
+        <div class="card-body" id="check">
+          <h5 class="card-title" style="display: inline-block;" >Total Price : <h5 id="total_price" style="display: inline;"></h5> </h5>
+          <p class="items_class" id="items"></p>
+          <a href="#" class="btn btn-primary">Checkout</a>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </div>
+
+
+  
+
+
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
